@@ -1,6 +1,6 @@
 baseURL       = "/"
 languageCode  = "en-us"
-title         = "Roxo | Creative Design Agency"
+title         = "SKYZINE | Aerial Imagery and Videography"
 theme = "roxo-hugo"
 summarylength = 25
 
@@ -32,7 +32,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
 
 # Site Params
 [params]
-  logo = "images/logo.png"
+  logo = "images/logos/header.png"
   dateFormat = "26 FEB 1994"
   # Meta data
   description = "Roxo Hugo themes | Design Agency Template by StaticMania"
@@ -52,12 +52,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
-    tagline               = "WE WORK HARD, WE PLAY HARD"
-    primary_button        = "See Our Works"
+    background_image      = "images/backgrounds/bluesky.jpg"
+    heading               = "Aerial imagery and videography at your fingertips"
+    tagline               = "idk"
+    primary_button        = "Recent Works"
     primary_button_url    = "portfolio"
-    secondary_button      = "Connect with Us"
+    secondary_button      = "Let's Connect"
     secondary_button_url  = "contact"
 
   [params.portfolio]
