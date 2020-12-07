@@ -34,6 +34,7 @@
     .btn-area{
       span{
         transform: translateY(-150%) skewY(7deg);
+        color: $pink;
         &::after{
           transform: skewY(-7deg);
         }
@@ -72,6 +73,6 @@
   background: $primary-color;
   color: $white;
   &:hover{
-    background: darken($color: $primary-color, $amount: 10);
+    background: darken($color: $primary-color, $amount: 0);
   }
 }
